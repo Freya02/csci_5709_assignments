@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Accordion, AccordionSummary, AccordionDetails, Button, Snackbar, Container, Typography, Grid, Paper, Card, CardContent } from '@mui/material';
