@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Accordion, AccordionSummary, AccordionDetails, Button, Snackbar, Container, Typography, Grid, Paper, Card, CardContent, CardActions } from '@mui/material';
+import { Accordion, AccordionSummary, AccordionDetails, Button, Snackbar, Container, Typography, Grid, Paper, Card, CardContent } from '@mui/material';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';

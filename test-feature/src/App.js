@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, IconButton, Drawer, List, ListItem, ListItemText, Avatar } from '@mui/material';
@@ -5,8 +6,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MyCoursesPage from './MyCoursesPage';
 import CourseDetailsPage from './CourseDetailsPage';
 import ChapterDetailsPage from './ChapterDetailsPage'; 
-
-
 
 import './App.css';
 
@@ -24,7 +23,7 @@ function App() {
     setNavOpen(false);
   };
 
-// Api fetching
+  // Api fetching
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -62,10 +61,11 @@ function App() {
           onClose={() => setNavOpen(false)}
         >
           <List>
-          <ListItem
-          button
-          component={Link}
-          to="/profile">
+            <ListItem
+              button
+              component={Link}
+              to="/profile"
+            >
               <Avatar src={require('./assets/profile-pic.jpg')} alt="Profile" />
               <ListItemText primary={`Hi ${username}`} />
             </ListItem>

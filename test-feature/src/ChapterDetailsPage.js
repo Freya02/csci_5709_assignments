@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Container, Typography, Grid, Paper, List, ListItem, ListItemText, Accordion, AccordionSummary, AccordionDetails, IconButton } from '@mui/material';
+import { Container, Typography, Grid, Paper, List, ListItem, ListItemText, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+
 
 function ChapterDetailsPage() {
     const params = useParams();
     const { title } = params;
     const decodedTitle = decodeURIComponent(title);
 
-    const youtubeVideoUrl = "https://www.youtube.com/embed/B_ketdzJtY8?si=XgS3yZh7Cg7KX2sF"; 
+    const youtubeVideoUrl = "https://www.youtube.com/embed/B_ketdzJtY8?si=XgS3yZh7Cg7KX2sF";
 
     const courseDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lorem non justo consequat, sed elementum enim faucibus.";
 
