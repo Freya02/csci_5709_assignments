@@ -1,0 +1,46 @@
+.course-card {
+    display: inline-block; /* Ensure course cards are displayed horizontally */
+    width: 200px; /* Set the width of each course card */
+    height: 250px; /* Set the height of each course card */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 40px; /* Adjust padding to make the card smaller */
+    margin: 10px; /* Adjust margin for spacing between cards */
+    background-color: #f9f9f9;
+    cursor: pointer; /* Change cursor to pointer when hovering over the card */
+  }
+  
+  .course-info {
+    text-align: left;
+  }
+  
+  .course-info h2 {
+    color: #333;
+    font-size: 8px; /* Reduce font size for course title */
+    margin-bottom: 5px; /* Reduce margin bottom for course title */
+  }
+  
+  .course-info p {
+    color: #666;
+    font-size: 8x; /* Reduce font size for course description */
+    margin-bottom: 10px; /* Reduce margin bottom for course description */
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px; /* Adjust padding for smaller button */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px; /* Reduce font size for button */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .rating {
+    color: #FFD700; /* Set star color */
+    margin-bottom: 10px;
+  }
+  

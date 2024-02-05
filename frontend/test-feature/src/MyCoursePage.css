@@ -1,0 +1,15 @@
+.my-courses-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Set height to fill the viewport */
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center course cards horizontally */
+    gap: 20px; /* Add gap between course cards */
+  }
+  
